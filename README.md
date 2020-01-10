@@ -1,6 +1,6 @@
 ## Kubernetes files and notes
 
-This some notes hold for the CKAD journey
+This some notes hold for the CKAD and CKA journey
 
 ### Installing MiniKube on Ubuntu linux
 
@@ -13,7 +13,8 @@ This will download the minikube executable. In order to add this executable to y
 
     sudo install minikube /usr/local/bin
 
-This will do the job, unless you don't want to move the file from where you downloaded it,
-so you have to edit your ~/.bashrc (or ~/.bash_profile) file to export the path of the executable.
+This will do the job, unless you want to use the one you downloaded instead.
+
+In that case you have to edit your `~/.bashrc` (or `~/.bash_profile`) file to export the path of the executable.
 
 
